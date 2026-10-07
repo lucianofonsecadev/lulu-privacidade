@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Minuta para revisão dos Termos de Uso do Lulu Finanças: funções atuais, cuidados com a conta, exportação e suporte.">
+  <meta name="referrer" content="no-referrer">
+  <title>Termos de Uso — Lulu Finanças (minuta)</title>
+  <style>
+    :root { color-scheme: light; --ink: #30263d; --muted: #62556f; --purple: #593283; --lavender: #eee6f8; --paper: #fff; --line: #dcd0e8; }
+    * { box-sizing: border-box; }
+    html { scroll-padding-top: 1.5rem; }
+    body { margin: 0; background: #faf7fd; color: var(--ink); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 1rem; line-height: 1.75; }
+    a { color: var(--purple); text-decoration-thickness: .08em; text-underline-offset: .2em; overflow-wrap: anywhere; }
+    a:hover { text-decoration-thickness: .15em; }
+    a:focus-visible { outline: 3px solid var(--purple); outline-offset: 4px; border-radius: 3px; }
+    .skip { position: absolute; left: 1rem; top: -6rem; padding: .6rem 1rem; background: var(--paper); z-index: 2; }
+    .skip:focus { top: 1rem; }
+    .wrap { width: min(100% - 2.5rem, 72rem); margin-inline: auto; }
+    header { background: var(--lavender); border-bottom: 1px solid var(--line); padding: 3.5rem 0 3rem; }
+    .brand { margin: 0 0 1rem; color: var(--purple); font-weight: 750; letter-spacing: .04em; }
+    h1 { max-width: 52rem; margin: 0 0 1rem; font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.18; letter-spacing: -.035em; }
+    header p { max-width: 45rem; }
+    .version { color: var(--muted); font-size: .95rem; }
+    .button { display: inline-block; padding: .75rem 1.1rem; border-radius: .7rem; background: var(--purple); color: white; font-weight: 650; text-decoration: none; }
+    .button:focus-visible { outline-offset: 5px; }
+    .layout { display: grid; grid-template-columns: 15rem minmax(0, 1fr); gap: 3rem; align-items: start; padding-block: 2.5rem; }
+    nav { position: sticky; top: 1.5rem; padding: 1.2rem; background: var(--paper); border: 1px solid var(--line); border-radius: 1rem; }
+    nav h2 { font-size: 1rem; margin: 0 0 .7rem; }
+    nav ol { margin: 0; padding-left: 1.3rem; }
+    nav li { padding-block: .2rem; }
+    nav a { display: inline-block; padding-block: .25rem; }
+    main { min-width: 0; }
+    section { margin-bottom: 2.3rem; }
+    h2 { margin: 0 0 .8rem; font-size: 1.5rem; line-height: 1.35; }
+    h3 { margin: 1.3rem 0 .4rem; font-size: 1.1rem; }
+    p { margin: 0 0 1rem; }
+    ul, ol { padding-left: 1.4rem; }
+    li { margin-bottom: .55rem; }
+    .notice { padding: 1.1rem 1.3rem; background: var(--lavender); border-left: 4px solid var(--purple); border-radius: 0 .7rem .7rem 0; }
+    .notice p:last-child { margin-bottom: 0; }
+    .deletion { padding: 1.6rem; background: var(--paper); border: 2px solid var(--purple); border-radius: 1rem; }
+    footer { padding: 1.5rem 0; border-top: 1px solid var(--line); color: var(--muted); font-size: .95rem; }
+    footer p { margin: 0; }
+    @media (max-width: 800px) {
+      .layout { grid-template-columns: 1fr; gap: 2rem; }
+      nav { position: static; }
+      header { padding-block: 2.5rem; }
+    }
+    @media (max-width: 380px) { .wrap { width: calc(100% - 2rem); } .deletion { padding: 1.1rem; } }
+    @media print { body, header, nav, .notice { background: white; } .layout { display: block; } nav, .skip, .button { display: none; } section { break-inside: avoid; } .wrap { width: 100%; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+  <header>
+    <div class="wrap">
+      <p class="brand">Lulu Finanças</p>
+      <h1>Termos de Uso — Lulu Finanças</h1>
+      <p>Regras propostas para usar o aplicativo, cuidar da sua conta e organizar seus registros financeiros.</p>
+      <p class="version">Minuta para revisão · <time datetime="2026-10-07">7 de outubro de 2026</time></p>
+      <a class="button" href="index.html">Política de Privacidade</a>
+    </div>
+  </header>
+  <div class="wrap layout">
+    <nav aria-label="Seções dos termos">
+      <h2>Nesta página</h2>
+      <ol>
+        <li><a href="#servico">Finalidade e funções</a></li>
+        <li><a href="#cadastro">Cadastro e senha</a></li>
+        <li><a href="#registros">Conferência dos registros</a></li>
+        <li><a href="#limites">Organização financeira</a></li>
+        <li><a href="#conexao">Conexão e disponibilidade</a></li>
+        <li><a href="#encerramento">Exportação e encerramento</a></li>
+        <li><a href="#uso">Usos proibidos</a></li>
+        <li><a href="#suporte">Suporte e alterações</a></li>
+        <li><a href="#privacidade">Privacidade e direitos</a></li>
+      </ol>
+      <p><a href="index.html">Política de Privacidade</a></p>
+    </nav>
+    <main id="conteudo" tabindex="-1">
+      <section class="notice" aria-label="Situação da minuta">
+        <p><strong>Minuta para revisão.</strong> Este documento ainda precisa ser revisado e aprovado pelo responsável. O fluxo de aceite foi preparado no código, mas permanece desativado, sem versão aprovada para adoção. Esta página não registra aceite e não afirma que você já aceitou o documento.</p>
+      </section>
+      <section id="servico" aria-labelledby="titulo-servico">
+        <h2 id="titulo-servico">1. Finalidade e funções atuais</h2>
+        <p>O Lulu Finanças é um aplicativo de organização financeira destinado a pessoas maiores de 18 anos. O responsável é <strong>Luciano Junio da Costa Fonseca</strong>, pessoa física. O contato é <a href="mailto:admin@lulufinancas.com.br">admin@lulufinancas.com.br</a>.</p>
+        <p>O aplicativo organiza informações cadastradas por você: contas e saldos, receitas e despesas, categorias, recorrências, orçamentos, metas, bens, investimentos, dívidas e ajustes. Permite consultar esses registros, acompanhar o planejamento e exportar dados. A autenticação e o armazenamento dos dados da conta online utilizam o Supabase.</p>
+        <p><strong>WhatsApp e interpretação por IA ainda estão em preparação.</strong> Esses recursos não são apresentados nesta minuta como disponíveis para uso. Sua eventual ativação exigirá revisão das informações e regras aplicáveis.</p>
+      </section>
+      <section id="cadastro" aria-labelledby="titulo-cadastro">
+        <h2 id="titulo-cadastro">2. Cadastro e proteção da senha</h2>
+        <p>Para usar a conta online, cadastre um e-mail ao qual tenha acesso e uma senha. Informe dados corretos e mantenha suas informações de acesso atualizadas. Não use a identidade ou a conta de outra pessoa sem autorização.</p>
+        <p>Proteja sua senha e não a compartilhe. Cuide do acesso ao aparelho e encerre a sessão quando necessário. Se suspeitar de acesso indevido, procure o suporte e utilize a recuperação de acesso. Não envie senhas, códigos de autenticação ou dados financeiros completos por e-mail; essas informações não serão solicitadas por esse canal.</p>
+        <p>Esses cuidados não afastam as obrigações do responsável relativas à segurança, ao funcionamento do serviço e à apuração de falhas. A origem e os efeitos de um problema devem ser avaliados no caso concreto, sem atribuir automaticamente toda a responsabilidade ao usuário.</p>
+      </section>
+      <section id="registros" aria-labelledby="titulo-registros">
+        <h2 id="titulo-registros">3. Conferência de valores, datas e registros</h2>
+        <p>Os resultados apresentados dependem dos dados informados. Confira valor, data, categoria, conta e situação de pagamento ou recebimento antes de salvar. Revise também os registros e relatórios antes de usá-los para tomar decisões.</p>
+        <p>Registrar uma despesa como paga ou uma receita como recebida representa uma informação cadastrada no aplicativo; não comprova uma operação bancária. Se identificar divergência ou suspeitar de erro do aplicativo, preserve as informações necessárias e procure o suporte. A conferência pelo usuário não elimina a responsabilidade por falhas do serviço.</p>
+      </section>
+      <section id="limites" aria-labelledby="titulo-limites">
+        <h2 id="titulo-limites">4. Organização financeira e orientação profissional</h2>
+        <p>O Lulu Finanças não movimenta dinheiro, executa pagamentos ou transfere valores. As contas e os lançamentos cadastrados servem à organização das suas informações.</p>
+        <p>O aplicativo não substitui orientação financeira profissional nem oferece garantia de resultado financeiro. Para decisões que exijam análise individual, como investimentos ou contratação de crédito, busque orientação adequada à sua situação.</p>
+      </section>
+      <section id="conexao" aria-labelledby="titulo-conexao">
+        <h2 id="titulo-conexao">5. Conexão e disponibilidade</h2>
+        <p>As gravações na conta online exigem conexão e confirmação do servidor. Cópias locais para consulta podem estar desatualizadas. Se uma operação ficar sem confirmação, confira os registros atualizados antes de repeti-la e procure o suporte se houver dúvida.</p>
+        <p>Podem ocorrer interrupções por problemas de conexão, manutenção ou falhas no aplicativo e nos serviços utilizados. Não há promessa de funcionamento contínuo ou sem erros. Isso não afasta o dever do responsável de tratar problemas sob sua responsabilidade e os direitos previstos na legislação aplicável.</p>
+      </section>
+      <section id="encerramento" aria-labelledby="titulo-encerramento">
+        <h2 id="titulo-encerramento">6. Exportação de dados e encerramento da conta</h2>
+        <p>Você pode exportar registros em CSV ou TXT e um backup JSON pelo aplicativo. Os arquivos ficam no destino escolhido por você. Confira o conteúdo exportado e proteja as cópias que decidir guardar ou compartilhar.</p>
+        <p>Para solicitar o encerramento e a exclusão da conta, escreva para <a href="mailto:admin@lulufinancas.com.br?subject=Solicita%C3%A7%C3%A3o%20de%20exclus%C3%A3o%20da%20conta%20Lulu">admin@lulufinancas.com.br</a>, informando o e-mail cadastrado. Luciano acompanha o pedido e verifica a titularidade pelo e-mail cadastrado e, quando necessário, pela autenticação normal no aplicativo. Nunca serão solicitados senha ou código por e-mail. Suspeita de fraude ou perda de acesso ao e-mail cadastrado exige análise proporcional, sem exclusão por suposição.</p>
+        <p>Exporte antes os registros que desejar preservar. A exclusão implica perda de acesso aos dados removidos do serviço, mas não apaga remotamente arquivos exportados ou conversas armazenadas no WhatsApp. Sair da conta ou desinstalar o aplicativo não equivale a solicitar sua exclusão.</p>
+        <p>Os dados da conta e os registros financeiros são mantidos enquanto a conta existir, sem exclusão automática por inatividade. Os detalhes de retenção, exclusão e cópias dos provedores estão na <a href="index.html#retencao">Política de Privacidade</a>. A solicitação por e-mail é o canal disponível; esta minuta não anuncia um botão de exclusão automática.</p>
+      </section>
+      <section id="uso" aria-labelledby="titulo-uso">
+        <h2 id="titulo-uso">7. Usos proibidos</h2>
+        <ul>
+          <li>Acessar ou tentar acessar contas e dados de outras pessoas sem autorização.</li>
+          <li>Obter, divulgar ou usar indevidamente credenciais, explorar vulnerabilidades ou contornar controles de acesso.</li>
+          <li>Enviar conteúdo malicioso, sobrecarregar intencionalmente o serviço ou interferir no uso por outras pessoas.</li>
+          <li>Usar o aplicativo para fraudes, atividades ilegais ou violação de direitos de terceiros.</li>
+        </ul>
+        <p>Se identificar uma vulnerabilidade ou uso indevido, comunique o responsável sem acessar ou expor dados de outras pessoas.</p>
+      </section>
+      <section id="suporte" aria-labelledby="titulo-suporte">
+        <h2 id="titulo-suporte">8. Suporte, contato e alterações</h2>
+        <p>Envie dúvidas, relatos de falhas, solicitações, reclamações e contestações para <a href="mailto:admin@lulufinancas.com.br">admin@lulufinancas.com.br</a>. Descreva o problema com apenas as informações necessárias, sem incluir credenciais ou dados financeiros completos.</p>
+        <p>Luciano realiza a análise manual das reclamações e contestações recebidas por esse e-mail. Não há prazo fixo de resposta anunciado; serão observados os prazos legais aplicáveis. Esse atendimento não é uma revisão independente.</p>
+        <p>O e-mail será utilizado para autenticação, recuperação de acesso, suporte, privacidade e avisos necessários sobre segurança, funcionamento ou atualização do serviço. Não serão enviados e-mails de promoções ou ofertas.</p>
+        <p>Luciano definiu que mudanças materiais ordinárias nos termos serão comunicadas por e-mail com pelo menos 15 dias corridos de antecedência, com data de versão e acesso ao texto atualizado. Essa antecedência é uma decisão do responsável, não um prazo legal geral. Urgências de segurança ou obrigações legais podem exigir prazo menor, com justificativa e comunicação assim que possível. Não foi demonstrada implementação de um sistema automático para esses avisos. Os critérios para eventual novo aceite ainda precisam ser definidos; o fluxo de aceite permanece desativado. Não se considera que continuar usando o aplicativo represente aceite automático desta minuta.</p>
+      </section>
+      <section id="privacidade" aria-labelledby="titulo-privacidade">
+        <h2 id="titulo-privacidade">9. Privacidade e preservação de direitos</h2>
+        <p>A <a href="index.html">Política de Privacidade</a> explica dados utilizados, serviços envolvidos, retenção, direitos e o canal de solicitação de exclusão. Consulte-a junto com esta minuta.</p>
+        <p>Estas regras não retiram direitos assegurados pela legislação brasileira, inclusive a proteção do consumidor quando aplicável, nem excluem de forma absoluta a responsabilidade do serviço. Não é imposto um foro exclusivo ou a renúncia ao acesso aos órgãos de defesa do consumidor e à Justiça.</p>
+        <p>Referências oficiais utilizadas na redação: <a href="https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm">Código de Defesa do Consumidor</a> e <a href="https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm">Marco Civil da Internet</a>.</p>
+        <a href="#conteudo">Voltar ao conteúdo</a>
+      </section>
+    </main>
+  </div>
+  <footer><div class="wrap"><p>Lulu Finanças · <a href="index.html">Política de Privacidade</a> · Contato: <a href="mailto:admin@lulufinancas.com.br">admin@lulufinancas.com.br</a></p></div></footer>
+</body>
+</html>
